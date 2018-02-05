@@ -1,0 +1,78 @@
+body{
+
+}
+
+header {
+    background: #333333;
+    /*display: flex;
+    justify-content: center;*/
+
+}
+
+.flex-header-container{
+    /*width: 90%; */
+    height: 80%;
+    background: black;
+    color: grey;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.brand {
+  flex-grow: 2;
+  background-color: #333333;
+
+}
+
+a {
+  text-decoration: none;
+
+}
+
+nav{
+  margin: 20px;
+  padding:20px;
+  color: grey;
+  background-color: black;
+  /*padding:10px;
+  margin: 10px;*/
+}
+
+.flex-top-half-container{
+  display:flex;
+  justify-content: center;
+  height: 300px;
+  /*margin-left: 2px;
+  margin-right: 2px;*/
+}
+
+.hero{
+
+}
+
+.pic{
+  width: 630px;
+
+}
+
+.flex-second-half-container{
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.small{
+  float:left;
+}
+
+.read{
+  float:right;
+}
+
+.flex-second-half-columns{
+  flex-direction: column;
+}
