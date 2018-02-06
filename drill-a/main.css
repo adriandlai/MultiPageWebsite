@@ -3,48 +3,53 @@ body{
 }
 
 header {
-    background: #333333;
-    /*display: flex;
-    justify-content: center;*/
-
-}
-
-.flex-header-container{
-    /*width: 90%; */
-    height: 80%;
-    background: black;
-    color: grey;
-    margin: 10px;
     display: flex;
-    align-items: center;
+    background: #333333;
+    color: grey;
+    margin: 0px;
     justify-content: space-between;
+    align-items: center;
 
 }
 
 .brand {
-  flex-grow: 2;
   background-color: #333333;
-
+  margin-left: 50px;
 }
 
 a {
+  color: grey;
   text-decoration: none;
+  padding: 10px;
 
 }
 
-nav{
-  margin: 20px;
-  padding:20px;
-  color: grey;
-  background-color: black;
-  /*padding:10px;
-  margin: 10px;*/
+.nav-container{
+  padding:10px;
+  color: red;
+  height: 30px;
+  /*width: 300px;*/
+  background-color: #212121;
+  margin-right: 50px;
+}
+
+.tagline {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+h1{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .flex-top-half-container{
   display:flex;
   justify-content: center;
   height: 300px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
   /*margin-left: 2px;
   margin-right: 2px;*/
 }
@@ -55,14 +60,16 @@ nav{
 
 .pic{
   width: 630px;
-
 }
 
+.main{
+  /*margin-left: 50px;
+  margin-right: 50px;*/
+}
 .flex-second-half-container{
   display: flex;
   justify-content: center;
-  margin-left: 100px;
-  margin-right: 100px;
+
 }
 
 .small{
@@ -75,4 +82,19 @@ nav{
 
 .flex-second-half-columns{
   flex-direction: column;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  color: grey;
+  height: 40px;
+  background: #333333;
+}
+
+footer p {
+  margin-left: 50px;
+
 }
